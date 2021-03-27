@@ -5,7 +5,7 @@ test_check("sqlr.template")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
-# usethis::use_github_action_check_full()
+# usethis::use_github_action_check_standard()
 # usethis::use_travis()
 # usethis::use_pkgdown_github_pages()
 # usethis::use_coverage()

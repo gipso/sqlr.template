@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sqlr.template
+# sqlr.template <a href='https://gipsousp.github.io/sqlr.template'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
 <!-- badges: start -->
 
