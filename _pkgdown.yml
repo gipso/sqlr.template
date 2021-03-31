@@ -16,6 +16,20 @@ navbar:
     news: ~
     articles: ~
 
+reference:
+- title: Data
+  contents:
+  - sheets
+  - domain
+  - constraint
+  - keyword
+  - source
+  - search
+
+- title: Utilities
+  contents:
+  - raw_data
+
 authors:
   Daniel Vartanian:
     href: https://github.com/danielvartan

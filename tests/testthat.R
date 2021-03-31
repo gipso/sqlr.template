@@ -5,10 +5,10 @@ test_check("sqlr.template")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
-# usethis::use_github_action_check_standard()
-# usethis::use_travis()
+# sqlr::start_sqlr([ADD SHEETS ID])
+# usethis::use_logo("./.archive/ai/hex-logo.png")
 # usethis::use_pkgdown_github_pages()
-# usethis::use_coverage()
+# usethis::use_package_doc()
 # codemetar::write_codemeta()
 #
 # .rs.restartR()

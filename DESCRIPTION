@@ -6,7 +6,7 @@ Authors@R:
              family = "Vartanian",
              role = c("aut", "cre", "cph"),
              email = "danvartan@gmail.com",
-             comment = c(ORCID = "0000-0001-7782-759X")),
+             comment = c(ORCID = "ADD")),
       person(given = "Ana Amelia",
              family = "Benedito-Silva",
              email = "aamelia@usp.br",
@@ -26,7 +26,7 @@ Description: For GIPSO internal use only.
 License: MIT + file LICENSE
 URL: https://gipsousp.github.io/sqlr.template/, 
      https://github.com/gipsousp/sqlr.template/
-BugReports: https://github.com/gipsousp/sqlr/issues/
+BugReports: https://github.com/gipsousp/sqlr.template/issues/
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
@@ -38,7 +38,8 @@ Imports:
     dplyr,
     lifecycle,
     magrittr,
-    sqlr
+    sqlr,
+    stringr
 Suggests: 
     covr,
     crayon,
@@ -46,14 +47,12 @@ Suggests:
     googlesheets4,
     grDevices,
     knitr,
+    revtools,
     rlang,
     rmarkdown,
-    rstudioapi,
     spelling,
-    stringr,
     synthesisr,
     testthat (>= 3.0.0),
-    usethis,
     utils
 Remotes:
     github::gipsousp/sqlr

@@ -1,4 +1,4 @@
-#' List with the Google Sheets metadata of the review entity tables
+#' List with Google Sheets metadata for tables hosted on the platform
 #'
 #' @description
 #'
@@ -7,47 +7,47 @@
 #' __UNDER DEVELOPMENT__
 "sheets"
 
-#' #' Domain dataset
-#' #'
-#' #' @description
-#' #'
-#' #' `r lifecycle::badge("experimental")`
-#' #'
-#' #' __UNDER DEVELOPMENT__
-#' "domain"
+#' Domain dataset
 #'
-#' #' Source dataset
-#' #'
-#' #' @description
-#' #'
-#' #' `r lifecycle::badge("experimental")`
-#' #'
-#' #' __UNDER DEVELOPMENT__
-#' "source"
+#' @description
 #'
-#' #' Constraint dataset
-#' #'
-#' #' @description
-#' #'
-#' #' `r lifecycle::badge("experimental")`
-#' #'
-#' #' __UNDER DEVELOPMENT__
-#' "constraint"
+#' `r lifecycle::badge("experimental")`
 #'
-#' #' Keyword dataset
-#' #'
-#' #' @description
-#' #'
-#' #' `r lifecycle::badge("experimental")`
-#' #'
-#' #' __UNDER DEVELOPMENT__
-#' "keyword"
+#' __UNDER DEVELOPMENT__
+"domain"
+
+#' Constraint dataset
 #'
-#' #' Search dataset
-#' #'
-#' #' @description
-#' #'
-#' #' `r lifecycle::badge("experimental")`
-#' #'
-#' #' __UNDER DEVELOPMENT__
-#' "search"
+#' @description
+#'
+#' `r lifecycle::badge("experimental")`
+#'
+#' __UNDER DEVELOPMENT__
+"constraint"
+
+#' Keyword dataset
+#'
+#' @description
+#'
+#' `r lifecycle::badge("experimental")`
+#'
+#' __UNDER DEVELOPMENT__
+"keyword"
+
+#' Source dataset
+#'
+#' @description
+#'
+#' `r lifecycle::badge("experimental")`
+#'
+#' __UNDER DEVELOPMENT__
+"source"
+
+#' Search dataset
+#'
+#' @description
+#'
+#' `r lifecycle::badge("experimental")`
+#'
+#' __UNDER DEVELOPMENT__
+"search"
