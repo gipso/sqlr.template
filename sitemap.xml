@@ -4,6 +4,24 @@
     <loc>https://gipsousp.github.io/sqlr.template//index.html</loc>
   </url>
   <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/constraint.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/domain.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/keyword.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/raw_data.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/search.html</loc>
+  </url>
+  <url>
     <loc>https://gipsousp.github.io/sqlr.template//reference/sheets.html</loc>
+  </url>
+  <url>
+    <loc>https://gipsousp.github.io/sqlr.template//reference/source.html</loc>
   </url>
 </urlset>
