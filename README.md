@@ -24,41 +24,38 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 > review repository, check the [GIPSO GitHub
 > page](https://github.com/gipsousp).
 
-`sqlr.[INSERT THE NAME OF THE PACKAGE]` is an R package with the
-research compendium of the project: `[INSERT THE NAME OF THE PROJECT]`:
-A Systematic Quantitative Literature Review. The aim of
-`sqlr.[INSERT THE NAME OF THE PACKAGE]` is to facilitate the research
-work, in addition to contributing to the reproducibility of the
+`sqlr.template` is an R package with the research compendium of the
+project: \[INSERT THE NAME OF THE PROJECT\]: a systematic quantitative
+literature review. The aim of `sqlr.template` is to facilitate the
+research work, in addition to contributing to the reproducibility of the
 research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen article [“Packaging Data Analytical Work Reproducibly
 Using R (and Friends)”](https://doi.org/10.1080/00031305.2017.1375986).
 
-Learn more about Systematic Quantitative Literature Reviewss at
+Learn more about Systematic Quantitative Literature Reviews at
 <http://bit.ly/2OMxvcD>.
 
 ## Installation
 
-`sqlr.[INSERT THE NAME OF THE PACKAGE]` is still at the
+`sqlr.template` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 stage of development, that means that people can use the package and
 provide feedback, but it comes with no promises for long term stability.
 
-You can install `sqlr.[INSERT THE NAME OF THE PACKAGE]` from GitHub
-with:
+You can install `sqlr.template` from GitHub with:
 
 ``` r
-# install.packages("sqlr.[INSERT THE NAME OF THE PACKAGE]")
-devtools::install_github("gipsousp/sqlr.[INSERT THE NAME OF THE PACKAGE]", dependencies = TRUE)
+# install.packages("sqlr.template")
+devtools::install_github("gipsousp/sqlr.template", dependencies = TRUE)
 ```
 
 ## Citation
 
-If you use `sqlr.[INSERT THE NAME OF THE PACKAGE]` in your research,
-please consider citing it. We put a lot of work to build and maintain a
-free and open-source R package. You can find the
-`sqlr.[INSERT THE NAME OF THE PACKAGE]` citation below.
+If you use `sqlr.template` in your research, please consider citing it.
+We put a lot of work to build and maintain a free and open-source R
+package. You can find the `sqlr.template` citation below.
 
 ``` r
 citation("sqlr.template")

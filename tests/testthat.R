@@ -5,11 +5,14 @@ test_check("sqlr.template")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
-# sqlr::start_sqlr([ADD SHEETS ID])
+# sqlr::start_sqlr("[ADD SHEETS ID]")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # usethis::use_pkgdown_github_pages()
 # usethis::use_package_doc()
 # codemetar::write_codemeta()
+#
+# spelling::spell_check_package()
+# spelling::update_wordlist()
 #
 # .rs.restartR()
 # devtools::install()

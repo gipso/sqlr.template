@@ -6,7 +6,7 @@ Authors@R:
              family = "Vartanian",
              role = c("aut", "cre", "cph"),
              email = "danvartan@gmail.com",
-             comment = c(ORCID = "ADD")),
+             comment = c(ORCID = "0000-0001-7782-759X")),
       person(given = "Ana Amelia",
              family = "Benedito-Silva",
              email = "aamelia@usp.br",
