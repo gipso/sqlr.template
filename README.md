@@ -11,8 +11,6 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/gipsousp/sqlr.template/workflows/R-CMD-check/badge.svg)](https://github.com/gipsousp/sqlr.template/actions)
-[![Travis build
-status](https://travis-ci.com/gipsousp/sqlr.template.svg?branch=master)](https://travis-ci.com/gipsousp/sqlr.template)
 [![Codecov test
 coverage](https://codecov.io/gh/gipsousp/sqlr.template/branch/master/graph/badge.svg)](https://codecov.io/gh/gipsousp/sqlr.template?branch=master)
 [![License:
