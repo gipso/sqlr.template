@@ -1,12 +1,15 @@
 {
-  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
   "@type": "SoftwareSourceCode",
   "identifier": "sqlr.template",
-  "description": "For GIPSO internal use only.",
-  "name": "sqlr.template: An R Package Template for Systematic Quantitative Literature Reviews",
+  "description": "For GIPSO internal use.",
+  "name": "sqlr.template: R Package Template for Systematic Quantitative Literature Reviews",
   "codeRepository": "https://github.com/gipsousp/sqlr.template/",
   "relatedLink": "https://gipsousp.github.io/sqlr.template/",
-  "issueTracker": "https://github.com/gipsousp/sqlr/issues/",
+  "issueTracker": "https://github.com/gipsousp/sqlr.template/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
   "programmingLanguage": {
@@ -14,7 +17,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
   "author": [
     {
       "@type": "Person",
@@ -98,32 +101,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "ggplot2",
-      "name": "ggplot2",
+      "identifier": "emojifont",
+      "name": "emojifont",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "googlesheets4",
-      "name": "googlesheets4",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=googlesheets4"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "grDevices",
-      "name": "grDevices"
+      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -139,15 +125,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "rlang",
-      "name": "rlang",
+      "identifier": "mockr",
+      "name": "mockr",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=rlang"
+      "sameAs": "https://CRAN.R-project.org/package=mockr"
     },
     {
       "@type": "SoftwareApplication",
@@ -163,18 +149,6 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "rstudioapi",
-      "name": "rstudioapi",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=rstudioapi"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "spelling",
       "name": "spelling",
       "provider": {
@@ -184,30 +158,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=spelling"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "stringr",
-      "name": "stringr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=stringr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "synthesisr",
-      "name": "synthesisr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=synthesisr"
     },
     {
       "@type": "SoftwareApplication",
@@ -221,23 +171,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=testthat"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "usethis",
-      "name": "usethis",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=usethis"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "utils",
-      "name": "utils"
     }
   ],
   "softwareRequirements": [
@@ -245,7 +178,7 @@
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
-      "version": ">= 3.6"
+      "version": ">= 4.1"
     },
     {
       "@type": "SoftwareApplication",
@@ -263,6 +196,7 @@
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
+      "version": ">= 0.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -285,25 +219,41 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "magrittr",
-      "name": "magrittr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=magrittr"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "sqlr",
       "name": "sqlr",
       "sameAs": "https://github.com/gipsousp/sqlr"
     }
   ],
-  "readme": "https://github.com/gipsousp/sqlr.template/blob/main/README.md",
-  "fileSize": "16.079KB",
-  "contIntegration": ["https://travis-ci.com/gipsousp/sqlr.template", "https://codecov.io/gh/gipsousp/sqlr.template?branch=master"],
-  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"]
+  "readme": "https://github.com/gipsousp/sqlr.template/blob/master/README.md",
+  "fileSize": "0KB",
+  "contIntegration": "https://codecov.io/gh/gipsousp/sqlr.template?branch=master",
+  "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
+  "releaseNotes": "https://github.com/gipsousp/sqlr.template/blob/master/NEWS.md",
+  "keywords": ["r-package", "sleep", "chronobiology", "systematic-review"],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "datePublished": "2021",
+      "author": [
+        {
+          "@type": "Person",
+          "givenName": "Daniel",
+          "familyName": "Vartanian"
+        },
+        {
+          "@type": "Person",
+          "givenName": ["Ana", "Amelia"],
+          "familyName": "Benedito-Silva"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Mario",
+          "familyName": "Pedrazzoli"
+        }
+      ],
+      "name": "sqlr.template: R package with the INSERT THE NAME OF THE PROJECT systematic quantitative literature review research compendium",
+      "url": "https://gipsousp.github.io/sqlr.template/",
+      "description": "Lifecycle: experimental"
+    }
+  ]
 }

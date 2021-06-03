@@ -9,7 +9,6 @@ test_check("sqlr.template")
 # sqlr::start_sqlr("[ADD SHEETS ID]")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # usethis::use_package_doc()
-# usethis::use_package_doc()
 # codemetar::write_codemeta()
 #
 # spelling::spell_check_package()
@@ -39,3 +38,32 @@ test_check("sqlr.template")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # usethis::use_pkgdown_github_pages()
 # usethis::use_tidy_description()
+
+# SQLR System
+#
+# googlesheets4::gs4_auth()
+#
+# sqlr::write_metadata("1v7N31XDoRj7W8CiXM6iOJnqdJraM8eICyiWCeiXRwGY")
+# devtools::document()
+# devtools::load_all()
+# sqlr::write_sheet()
+# devtools::document()
+# devtools::load_all()
+#
+# .rs.restartR()
+#
+# devtools::install()
+#
+# devtools::load_all(".")
+# sqlr::build_reference()
+#
+# devtools::document()
+# devtools::load_all()
+#
+# sqlr::write_trial()
+# nrow(dplyr::filter(reference, criteria_id == "DUP")) +
+# sqlr::sheet_nrow("trial_nr1") == nrow(reference)
+#
+# .rs.restartR()
+#
+# devtools::install()
