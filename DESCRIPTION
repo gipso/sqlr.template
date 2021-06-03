@@ -1,5 +1,5 @@
 Package: sqlr.template
-Title: An R Package Template for Systematic Quantitative Literature Reviews
+Title: R Package Template for Systematic Quantitative Literature Reviews
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Daniel",
@@ -22,40 +22,33 @@ Authors@R:
       person(given = "University of Sao Paulo (USP)",
              role = c("fnd")))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
-Description: For GIPSO internal use only.
+Description: For GIPSO internal use.
 License: MIT + file LICENSE
 URL: https://gipsousp.github.io/sqlr.template/, 
      https://github.com/gipsousp/sqlr.template/
 BugReports: https://github.com/gipsousp/sqlr.template/issues/
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends:
-    R (>= 3.6)
+    R (>= 4.1)
 Imports: 
     checkmate,
-    dplyr,
+    dplyr (>= 0.2),
     lifecycle,
-    magrittr,
-    sqlr,
-    stringr
+    sqlr
 Suggests: 
     covr,
     crayon,
-    ggplot2,
-    googlesheets4,
-    grDevices,
+    emojifont,
     knitr,
-    revtools,
-    rlang,
+    mockr,
     rmarkdown,
     spelling,
-    synthesisr,
-    testthat (>= 3.0.0),
-    utils
-Remotes:
+    testthat (>= 3.0.0)
+Remotes: 
     github::gipsousp/sqlr
-Config/testthat/edition: 3
 VignetteBuilder: knitr
 Language: en-US
