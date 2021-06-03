@@ -1,3 +1,4 @@
+library(checkmate)
 library(testthat)
 library(sqlr.template)
 
@@ -7,7 +8,7 @@ test_check("sqlr.template")
 #
 # sqlr::start_sqlr("[ADD SHEETS ID]")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
-# usethis::use_pkgdown_github_pages()
+# usethis::use_package_doc()
 # usethis::use_package_doc()
 # codemetar::write_codemeta()
 #
@@ -15,44 +16,26 @@ test_check("sqlr.template")
 # spelling::update_wordlist()
 #
 # .rs.restartR()
-# devtools::install()
-# devtools::document()
-# devtools:test()
-# devtools::check()
-# covr::package_coverage()
-# covr::codecov(token = "")
-# pkgdown::build_site(preview = TRUE)
-# pkgdown::build_favicons(overwrite = TRUE)
-# pkgdown::build_article("mctq")
-# pkgdown::build_reference(preview = FALSE)
-# codemetar::write_codemeta()
 # codemetar::give_opinions()
-# urlchecker::url_check()
+# codemetar::write_codemeta()
+# covr::package_coverage()
+# devtools::check()
+# devtools::document()
+# devtools::install()
+# devtools:test()
 # goodpractice::gp()
+# normalizePath(readClipboard(), "/", mustWork = FALSE)
+# pkgdown::build_article("mctq")
+# pkgdown::build_favicons(overwrite = TRUE)
+# pkgdown::build_reference(preview = FALSE)
+# pkgdown::build_site(preview = TRUE)
 # spelling::spell_check_package()
 # spelling::update_wordlist()
-# usethis::use_tidy_description()
+# urlchecker::url_check()
 # usethis::use_coverage()
-# usethis::use_pkgdown_github_pages()
-# usethis::use_github_action_check_full()
-# usethis::use_github_action_check_standard()
+# usethis::use_github_action("check-pak")
+# usethis::use_github_action("pkgdown-pak")
+# usethis::use_github_action("test-coverage-pak")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
-# normalizePath(readClipboard(), "/", mustWork = FALSE)
-#
-# # Read references
-# file <- "2021-04-05 - Citations - PubMed - EN - 1-2821.txt"
-# path <- "C:\\Users\\Daniel\\Desktop\\"
-# file <- paste0(path, file)
-# test <- synthesisr::read_ref(file)
-#
-# path <- "C:\\Users\\Daniel\\Desktop\\TEMP\\"
-# files <- paste0(path, dir(path))
-# test <- synthesisr::read_refs(files)
-#
-# # Normalize file names
-# path <- "./inst/extdata/citation/"
-# path <- "./inst/extdata/search_history/"
-# new_name <- tolower(dir(path))
-# new_name <- stringr::str_replace_all(new_name, " - ", "_")
-# new_name <- stringr::str_replace_all(new_name, " ", "-")
-# file.rename(paste0(path, dir(path)), paste0(path, new_name))
+# usethis::use_pkgdown_github_pages()
+# usethis::use_tidy_description()
