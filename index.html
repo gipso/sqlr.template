@@ -19,17 +19,17 @@
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="R Package Template for Systematic Quantitative Literature Reviews">
 <meta property="og:description" content="For GIPSO internal use.">
-<meta property="og:image" content="https://gipsousp.github.io/sqlr.template/logo.png">
+<meta property="og:image" content="https://gipso.github.io/sqlr.template/logo.png">
 <meta name="robots" content="noindex">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]--><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-7SB7QR1LH3"></script><script>
+<![endif]--><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-HEQR9KYVL8"></script><script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-7SB7QR1LH3');
+  gtag('config', 'G-HEQR9KYVL8');
 </script>
 </head>
 <body data-spy="scroll" data-target="#toc">
@@ -57,7 +57,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/gipsousp/sqlr.template/">
+  <a href="https://github.com/gipso/sqlr.template/">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -76,24 +76,24 @@
   <div class="contents col-md-9">
 <div id="sqlrtemplate-" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
-<a href="#sqlrtemplate-" class="anchor"></a>sqlr.template <a href="https://gipsousp.github.io/sqlr.template"><img src="reference/figures/logo.png" align="right" height="139"></a>
+<a href="#sqlrtemplate-" class="anchor"></a>sqlr.template <a href="https://gipso.github.io/sqlr.template"><img src="reference/figures/logo.png" align="right" height="139"></a>
 </h1></div>
 <!-- badges: start -->
 
 <blockquote>
-<p>This is a template repository for R packages of the Interdisciplinary Sleep Research Group (GIPSO) Systematic Quantitative Literature Reviews (SQLR).</p>
+<p>This is a template repository for R packages of the Interdisciplinary Sleep Research Group (GIPSO) Systematic Quantitative Literature Reviews (SQLR). If you’re looking for a specific repository, check the <a href="https://github.com/gipso">GIPSO’s GitHub page</a>.</p>
 </blockquote>
-<p><code>sqlr.template</code> is an R package with the <br><span class="math display"><em>I</em><em>N</em><em>S</em><em>E</em><em>R</em><em>T</em><em>T</em><em>H</em><em>E</em><em>N</em><em>A</em><em>M</em><em>E</em><em>O</em><em>F</em><em>T</em><em>H</em><em>E</em><em>P</em><em>R</em><em>O</em><em>J</em><em>E</em><em>C</em><em>T</em></span><br> research compendium. The aim of <code>sqlr.template</code> is to facilitate the research work, in addition to contributing to the reproducibility of the research.</p>
-<p>The assemble of this package was inspired by Ben Marwick, Carl Boettiger &amp; Lincoln Mullen article <a href="https://doi.org/10.1080/00031305.2017.1375986">“Packaging Data Analytical Work Reproducibly Using R (and Friends)”</a>.</p>
+<p><code>sqlr.template</code> is an R package with the research compendium of the GIPSO’s <br><span class="math display"><em>I</em><em>N</em><em>S</em><em>E</em><em>R</em><em>T</em><em>N</em><em>A</em><em>M</em><em>E</em><em>O</em><em>F</em><em>T</em><em>H</em><em>E</em><em>P</em><em>R</em><em>O</em><em>J</em><em>E</em><em>C</em><em>T</em></span><br> systematic quantitative literature review. The aim of <code>sqlr.template</code> is to facilitate the research work, in addition to contributing to the reproducibility of the research.</p>
+<p>The assemble of this package was inspired by Ben Marwick, Carl Boettiger &amp; Lincoln Mullen’s article <a href="https://doi.org/10.1080/00031305.2017.1375986">“Packaging Data Analytical Work Reproducibly Using R (and Friends)”</a>.</p>
 <p>Learn more about Systematic Quantitative Literature Reviews (SQLR) <a href="https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review">here</a>.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p><code>sqlr.template</code> is still at the <a href="https://lifecycle.r-lib.org/articles/stages.html#experimental">experimental</a> stage of development, that means that people can use the package and provide feedback, but it comes with no promises for long term stability.</p>
+<p><code>sqlr.template</code> is still at the <a href="https://lifecycle.r-lib.org/articles/stages.html#experimental">experimental</a> stage of development. That means people can use the package and provide feedback, but it comes with no promises for long term stability.</p>
 <p>You can install <code>sqlr.template</code> from GitHub with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("pak")</span>
-<span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="http://pak.r-lib.org/reference/pkg_install.html">pkg_install</a></span><span class="op">(</span><span class="st">"gipsousp/sqlr.template"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"gipso/sqlr.template"</span><span class="op">)</span></code></pre></div>
 </div>
 <div id="citation" class="section level2">
 <h2 class="hasAnchor">
@@ -102,20 +102,20 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html">citation</a></span><span class="op">(</span><span class="st">"sqlr.template"</span><span class="op">)</span>
 <span class="co">#&gt; </span>
-<span class="co">#&gt; To cite sqlr.template in publications use:</span>
+<span class="co">#&gt; To cite {sqlr.template} in publications use:</span>
 <span class="co">#&gt; </span>
-<span class="co">#&gt;   Vartanian, D., Benedito-Silva, A. A., Pedrazzoli, M. (2021).</span>
-<span class="co">#&gt;   sqlr.template: R package with the INSERT THE NAME OF THE PROJECT</span>
-<span class="co">#&gt;   systematic quantitative literature review research compendium.</span>
-<span class="co">#&gt;   Retrieved from https://gipsousp.github.io/sqlr.template/.</span>
+<span class="co">#&gt;   Vartanian, D., Pedrazzoli, M. (2021). {sqlr.template}: an R package</span>
+<span class="co">#&gt;   with the research compendium of the GIPSO's INSERT NAME OF THE</span>
+<span class="co">#&gt;   PROJECT systematic quantitative literature review. Retrieved from</span>
+<span class="co">#&gt;   https://gipso.github.io/sqlr.template/.</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; A BibTeX entry for LaTeX users is</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt;   @Unpublished{,</span>
-<span class="co">#&gt;     title = {sqlr.template: R package with the INSERT THE NAME OF THE PROJECT systematic quantitative literature review research compendium},</span>
-<span class="co">#&gt;     author = {Daniel Vartanian and Ana Amelia Benedito-Silva and Mario Pedrazzoli},</span>
+<span class="co">#&gt;     title = {{sqlr.template}: an R package with the research compendium of the GIPSO's INSERT NAME OF THE PROJECT systematic quantitative literature review},</span>
+<span class="co">#&gt;     author = {Daniel Vartanian and Mario Pedrazzoli},</span>
 <span class="co">#&gt;     year = {2021},</span>
-<span class="co">#&gt;     url = {https://gipsousp.github.io/sqlr.template/},</span>
+<span class="co">#&gt;     url = {https://gipso.github.io/sqlr.template/},</span>
 <span class="co">#&gt;     note = {Lifecycle: experimental},</span>
 <span class="co">#&gt;   }</span></code></pre></div>
 </div>
@@ -126,9 +126,9 @@
     <div class="links">
 <h2>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/gipsousp/sqlr.template/">https://​github.com/​gipsousp/​sqlr.template/​</a>
+<li>Browse source code at <br><a href="https://github.com/gipso/sqlr.template/">https://​github.com/​gipso/​sqlr.template/​</a>
 </li>
-<li>Report a bug at <br><a href="https://github.com/gipsousp/sqlr.template/issues/">https://​github.com/​gipsousp/​sqlr.template/​issues/​</a>
+<li>Report a bug at <br><a href="https://github.com/gipso/sqlr.template/issues/">https://​github.com/​gipso/​sqlr.template/​issues/​</a>
 </li>
 </ul>
 </div>
@@ -151,11 +151,9 @@
 <li>
 <a href="https://github.com/danielvartan">Daniel Vartanian</a> <br><small class="roles"> Author, maintainer, copyright holder </small> <a href="https://orcid.org/0000-0001-7782-759X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>
-<a href="https://github.com/AnaAmeliaBeneditoSIlva">Ana Amelia Benedito-Silva</a> <br><small class="roles"> Author, scientific advisor </small> <a href="https://orcid.org/0000-0003-4976-2623" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>
 <a href="https://github.com/pedrazzo">Mario Pedrazzoli</a> <br><small class="roles"> Author, scientific advisor </small> <a href="https://orcid.org/0000-0002-5257-591X" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>
-<a href="http://each.usp.br/gipso">Interdisciplinary Sleep Research Group (GIPSO)</a> <br><small class="roles"> Funder, copyright holder </small>  </li>
+<a href="http://each.usp.br/gipso">Interdisciplinary Sleep Research Group (GIPSO)</a> <br><small class="roles"> Funder </small>  </li>
 <li>
 <a href="http://usp.br">University of Sao Paulo (USP)</a> <br><small class="roles"> Funder </small>  </li>
 </ul>
@@ -166,8 +164,8 @@
 <ul class="list-unstyled">
 <li><a href="https://www.repostatus.org/#wip"><img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public."></a></li>
 <li><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
-<li><a href="https://github.com/gipsousp/sqlr.template/actions"><img src="https://github.com/gipsousp/sqlr.template/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
-<li><a href="https://codecov.io/gh/gipsousp/sqlr.template?branch=master"><img src="https://codecov.io/gh/gipsousp/sqlr.template/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://github.com/gipso/sqlr.template/actions"><img src="https://github.com/gipso/sqlr.template/workflows/R-CMD-check/badge.svg" alt="R-CMD-check"></a></li>
+<li><a href="https://codecov.io/gh/gipso/sqlr.template?branch=main"><img src="https://codecov.io/gh/gipso/sqlr.template/branch/main/graph/badge.svg" alt="Codecov test coverage"></a></li>
 <li><a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-green" alt="License: MIT"></a></li>
 </ul>
 </div>
@@ -176,7 +174,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by <a href="https://github.com/danielvartan">Daniel Vartanian</a>, <a href="https://github.com/AnaAmeliaBeneditoSIlva">Ana Amelia Benedito-Silva</a>, <a href="https://github.com/pedrazzo">Mario Pedrazzoli</a>, <a href="http://each.usp.br/gipso">Interdisciplinary Sleep Research Group (GIPSO)</a>, <a href="http://usp.br">University of Sao Paulo (USP)</a>.</p>
+  <p>Developed by <a href="https://github.com/danielvartan">Daniel Vartanian</a>, <a href="https://github.com/pedrazzo">Mario Pedrazzoli</a>, <a href="http://each.usp.br/gipso">Interdisciplinary Sleep Research Group (GIPSO)</a>, <a href="http://usp.br">University of Sao Paulo (USP)</a>.</p>
 </div>
 
 <div class="pkgdown">
