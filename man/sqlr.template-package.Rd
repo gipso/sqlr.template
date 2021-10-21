@@ -13,9 +13,9 @@ For GIPSO internal use.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://gipsousp.github.io/sqlr.template/}
-  \item \url{https://github.com/gipsousp/sqlr.template/}
-  \item Report bugs at \url{https://github.com/gipsousp/sqlr.template/issues/}
+  \item \url{https://gipso.github.io/sqlr.template/}
+  \item \url{https://github.com/gipso/sqlr.template/}
+  \item Report bugs at \url{https://github.com/gipso/sqlr.template/issues/}
 }
 
 }
@@ -24,13 +24,12 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Ana Amelia Benedito-Silva \email{aamelia@usp.br} (\href{https://orcid.org/0000-0003-4976-2623}{ORCID}) [scientific advisor]
   \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
 }
 
 Other contributors:
 \itemize{
-  \item Interdisciplinary Sleep Research Group (GIPSO) [funder, copyright holder]
+  \item Interdisciplinary Sleep Research Group (GIPSO) [funder]
   \item University of Sao Paulo (USP) [funder]
 }
 

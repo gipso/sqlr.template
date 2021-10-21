@@ -7,9 +7,9 @@
   "identifier": "sqlr.template",
   "description": "For GIPSO internal use.",
   "name": "sqlr.template: R Package Template for Systematic Quantitative Literature Reviews",
-  "codeRepository": "https://github.com/gipsousp/sqlr.template/",
-  "relatedLink": "https://gipsousp.github.io/sqlr.template/",
-  "issueTracker": "https://github.com/gipsousp/sqlr.template/issues/",
+  "codeRepository": "https://github.com/gipso/sqlr.template/",
+  "relatedLink": ["https://gipsousp.github.io/sqlr.template/", "https://gipso.github.io/sqlr.template/"],
+  "issueTracker": "https://github.com/gipso/sqlr.template/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
   "programmingLanguage": {
@@ -17,7 +17,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
   "author": [
     {
       "@type": "Person",
@@ -25,13 +25,6 @@
       "familyName": "Vartanian",
       "email": "danvartan@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
-    },
-    {
-      "@type": "Person",
-      "givenName": "Ana Amelia",
-      "familyName": "Benedito-Silva",
-      "email": "aamelia@usp.br",
-      "@id": "https://orcid.org/0000-0003-4976-2623"
     },
     {
       "@type": "Person",
@@ -49,10 +42,6 @@
       "familyName": "Vartanian",
       "email": "danvartan@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
-    },
-    {
-      "@type": "Organization",
-      "name": "Interdisciplinary Sleep Research Group (GIPSO)"
     }
   ],
   "funder": [
@@ -86,30 +75,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=covr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "crayon",
-      "name": "crayon",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=crayon"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "emojifont",
-      "name": "emojifont",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -184,6 +149,7 @@
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
+      "version": ">= 2.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -194,9 +160,22 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "cli",
+      "name": "cli",
+      "version": ">= 3.0.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=cli"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
-      "version": ">= 0.2",
+      "version": ">= 1.0.7",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -209,6 +188,7 @@
       "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
+      "version": ">= 1.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -221,15 +201,20 @@
       "@type": "SoftwareApplication",
       "identifier": "sqlr",
       "name": "sqlr",
-      "sameAs": "https://github.com/gipsousp/sqlr"
+      "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "readme": "https://github.com/gipsousp/sqlr.template/blob/master/README.md",
-  "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/gipsousp/sqlr.template?branch=master",
+  "readme": "https://github.com/gipso/sqlr.template/blob/main/README.md",
+  "fileSize": "42.593KB",
+  "contIntegration": ["https://github.com/gipso/sqlr.template/actions", "https://codecov.io/gh/gipso/sqlr.template?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
-  "releaseNotes": "https://github.com/gipsousp/sqlr.template/blob/master/NEWS.md",
-  "keywords": ["r-package", "sleep", "chronobiology", "systematic-review"],
+  "releaseNotes": "https://github.com/gipso/sqlr.template/blob/master/NEWS.md",
+  "keywords": [
+    "r-package",
+    "sleep",
+    "chronobiology",
+    "systematic-review"
+  ],
   "citation": [
     {
       "@type": "CreativeWork",
@@ -242,17 +227,12 @@
         },
         {
           "@type": "Person",
-          "givenName": ["Ana", "Amelia"],
-          "familyName": "Benedito-Silva"
-        },
-        {
-          "@type": "Person",
           "givenName": "Mario",
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "sqlr.template: R package with the INSERT THE NAME OF THE PROJECT systematic quantitative literature review research compendium",
-      "url": "https://gipsousp.github.io/sqlr.template/",
+      "name": "{sqlr.template}: an R package with the research compendium of the GIPSO's INSERT NAME OF THE PROJECT systematic quantitative literature review",
+      "url": "https://gipso.github.io/sqlr.template/",
       "description": "Lifecycle: experimental"
     }
   ]
