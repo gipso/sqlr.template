@@ -4,7 +4,7 @@ library(sqlr.template)
 
 test_check("sqlr.template")
 
-# # For development use only (comment the code after use (Ctrl + Shift + C))
+# # Start here
 #
 # sqlr::start_sqlr("[ADD SHEETS ID]")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
@@ -13,6 +13,8 @@ test_check("sqlr.template")
 #
 # spelling::spell_check_package()
 # spelling::update_wordlist()
+
+# # For development use only (comment the code after use (Ctrl + Shift + C))
 #
 # .rs.restartR()
 # codemetar::give_opinions()

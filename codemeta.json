@@ -8,7 +8,10 @@
   "description": "For GIPSO internal use.",
   "name": "sqlr.template: R Package Template for Systematic Quantitative Literature Reviews",
   "codeRepository": "https://github.com/gipso/sqlr.template/",
-  "relatedLink": ["https://gipsousp.github.io/sqlr.template/", "https://gipso.github.io/sqlr.template/"],
+  "relatedLink": [
+    "https://gipsousp.github.io/sqlr.template/",
+    "https://gipso.github.io/sqlr.template/"
+  ],
   "issueTracker": "https://github.com/gipso/sqlr.template/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
@@ -186,6 +189,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "gutils",
+      "name": "gutils",
+      "sameAs": "https://github.com/gipso/gutils"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
       "version": ">= 1.0.0",
@@ -205,7 +214,7 @@
     }
   ],
   "readme": "https://github.com/gipso/sqlr.template/blob/main/README.md",
-  "fileSize": "42.593KB",
+  "fileSize": "42.201KB",
   "contIntegration": ["https://github.com/gipso/sqlr.template/actions", "https://codecov.io/gh/gipso/sqlr.template?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/sqlr.template/blob/master/NEWS.md",

@@ -62,7 +62,7 @@ citation("sqlr.template")
 #> 
 #>   Vartanian, D., Pedrazzoli, M. (2021). {sqlr.template}: an R package
 #>   with the research compendium of the GIPSO's INSERT NAME OF THE
-#>   PROJECT systematic quantitative literature review. Retrieved from
+#>   PROJECT systematic quantitative literature review.
 #>   https://gipso.github.io/sqlr.template/.
 #> 
 #> A BibTeX entry for LaTeX users is

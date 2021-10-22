@@ -20,7 +20,7 @@ citEntry(
                        "GIPSO's", " ",
                        "INSERT NAME OF THE PROJECT", " ",
                        "systematic quantitative literature review.", " ",
-                       "Retrieved from https://gipso.github.io/",
+                       "https://gipso.github.io/",
                        "sqlr.template/", "."),
   note        = "Lifecycle: experimental"
 )
