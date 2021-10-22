@@ -17,6 +17,8 @@ coverage](https://codecov.io/gh/gipso/sqlr.template/branch/main/graph/badge.svg)
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
+## Overview
+
 > This is a template repository for R packages of the Interdisciplinary
 > Sleep Research Group (GIPSO) Systematic Quantitative Literature
 > Reviews (SQLR). If you’re looking for a specific repository, check the

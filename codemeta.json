@@ -9,7 +9,6 @@
   "name": "sqlr.template: R Package Template for Systematic Quantitative Literature Reviews",
   "codeRepository": "https://github.com/gipso/sqlr.template/",
   "relatedLink": [
-    "https://gipsousp.github.io/sqlr.template/",
     "https://gipso.github.io/sqlr.template/"
   ],
   "issueTracker": "https://github.com/gipso/sqlr.template/issues/",

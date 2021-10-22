@@ -25,6 +25,8 @@ library(sqlr.template)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
+## Overview
+
 > This is a template repository for R packages of the Interdisciplinary Sleep Research Group (GIPSO) Systematic Quantitative Literature Reviews (SQLR). If you're looking for a specific repository, check the [GIPSO's GitHub page](https://github.com/gipso).
 
 `sqlr.template` is an R package with the research compendium of the GIPSO's [INSERT NAME OF THE PROJECT] systematic quantitative literature review. The aim of `sqlr.template` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
