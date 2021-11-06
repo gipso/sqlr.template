@@ -12,7 +12,7 @@ citEntry(
   year        = "2021",
   url         = paste0("https://gipso.github.io/",
                        "sqlr.template/"),
-  textVersion = paste0("Vartanian, D.", ", ",
+  textVersion = paste0("Vartanian, D.", ", & ",
                        "Pedrazzoli, M.", " ",
                        "(2021)",  ". ",
                        "{sqlr.template}:", " ",
@@ -21,6 +21,6 @@ citEntry(
                        "INSERT NAME OF THE PROJECT", " ",
                        "systematic quantitative literature review.", " ",
                        "https://gipso.github.io/",
-                       "sqlr.template/", "."),
+                       "sqlr.template/"),
   note        = "Lifecycle: experimental"
 )

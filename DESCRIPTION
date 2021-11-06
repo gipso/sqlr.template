@@ -1,10 +1,10 @@
 Package: sqlr.template
-Title: R Package Template for Systematic Quantitative Literature Reviews
+Title: Template for Systematic Quantitative Literature Reviews
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Daniel",
              family = "Vartanian",
-             role = c("aut", "cre", "cph"),
+             role = c("aut", "cph", "cre"),
              email = "danvartan@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")),
       person(given = "Mario",
@@ -16,7 +16,6 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Maintainer: Daniel Vartanian <danvartan@gmail.com>
 Description: For GIPSO internal use.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/sqlr.template/, 
@@ -26,17 +25,17 @@ Depends:
     R (>= 4.1)
 Imports: 
     checkmate (>= 2.0.0),
-    cli (>= 3.0.1),
+    cli (>= 3.1.0),
     dplyr (>= 1.0.7),
     gutils,
-    lifecycle (>= 1.0.0),
+    lifecycle (>= 1.0.1),
     sqlr
 Suggests: 
-    covr,
-    knitr,
-    mockr,
-    rmarkdown,
-    spelling,
+    covr (>= 3.5.1),
+    knitr (>= 1.36),
+    mockr (>= 0.1),
+    rmarkdown (>= 2.11),
+    spelling (>= 2.2),
     testthat (>= 3.0.0)
 Remotes: 
     github::gipso/gutils,

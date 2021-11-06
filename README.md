@@ -12,7 +12,7 @@ public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostat
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/gipso/sqlr.template/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/sqlr.template/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/gipso/sqlr.template/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/sqlr.template?branch=main)
+coverage](https://codecov.io/gh/gipso/sqlr.template/branch/main/graph/badge.svg)](https://app.codecov.io/gh/gipso/sqlr.template?branch=main)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
@@ -39,17 +39,14 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-`sqlr.template` is still at the
-[experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development. That means people can use the package and provide
-feedback, but it comes with no promises for long term stability.
-
 You can install `sqlr.template` from GitHub with:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("gipso/sqlr.template")
 ```
+
+We don’t intend to publish this package to CRAN.
 
 ## Citation
 
