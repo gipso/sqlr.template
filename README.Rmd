@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 library(sqlr.template)
 ```
 
-# sqlr.template <a href='https://gipso.github.io/sqlr.template'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# sqlr.template
 
 <!-- badges: start -->
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
@@ -27,13 +27,13 @@ library(sqlr.template)
 
 ## Overview
 
-> This is a template repository for R packages of the Interdisciplinary Sleep Research Group (GIPSO) Systematic Quantitative Literature Reviews (SQLR). If you're looking for a specific repository, check the [GIPSO's GitHub page](https://github.com/gipso).
+> This is a template repository for systematic quantitative literature reviews (SQLR) research compendiums.
 
-`sqlr.template` is an R package with the research compendium of the GIPSO's [INSERT NAME OF THE PROJECT] systematic quantitative literature review. The aim of `sqlr.template` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
+`sqlr.template` is an R package with the research compendium of the Interdisciplinary Sleep Research Group (GIPSO) [INSERT THE NAME OF THE PROJECT] systematic quantitative literature review. The aim of `sqlr.template` is to facilitate the research work, in addition to contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger & Lincoln Mullen's article ["Packaging Data Analytical Work Reproducibly Using R (and Friends)"](https://doi.org/10.1080/00031305.2017.1375986).
 
-Learn more about Systematic Quantitative Literature Reviews (SQLR) [here](https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review).
+Learn more about systematic quantitative literature reviews (SQLR) [here](https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review).
 
 ## Installation
 

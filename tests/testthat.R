@@ -9,6 +9,7 @@ test_check("sqlr.template")
 # sqlr::start_sqlr("[ADD SHEETS ID]")
 # usethis::use_logo("./.archive/ai/hex-logo.png")
 # usethis::use_package_doc()
+# cffr::cff_write()
 # codemetar::write_codemeta()
 #
 # spelling::spell_check_package()
@@ -41,8 +42,12 @@ test_check("sqlr.template")
 # usethis::use_coverage()
 # usethis::use_github_action("check-pak")
 # usethis::use_github_action("test-coverage-pak")
-# usethis::use_logo("./.archive/ai/hex-logo.png")
+# usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
+
+# # Data packages
+# 
+# See: <https://docs.ropensci.org/frictionless/>
 
 # # SQLR system
 #

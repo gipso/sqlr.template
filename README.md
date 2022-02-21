@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sqlr.template <a href='https://gipso.github.io/sqlr.template'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# sqlr.template
 
 <!-- badges: start -->
 
@@ -19,22 +19,20 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 
 ## Overview
 
-> This is a template repository for R packages of the Interdisciplinary
-> Sleep Research Group (GIPSO) Systematic Quantitative Literature
-> Reviews (SQLR). If you’re looking for a specific repository, check the
-> [GIPSO’s GitHub page](https://github.com/gipso).
+> This is a template repository for systematic quantitative literature
+> reviews (SQLR) research compendiums.
 
 `sqlr.template` is an R package with the research compendium of the
-GIPSO’s \[INSERT NAME OF THE PROJECT\] systematic quantitative
-literature review. The aim of `sqlr.template` is to facilitate the
-research work, in addition to contributing to the reproducibility of the
-research.
+Interdisciplinary Sleep Research Group (GIPSO) \[INSERT THE NAME OF THE
+PROJECT\] systematic quantitative literature review. The aim of
+`sqlr.template` is to facilitate the research work, in addition to
+contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
 Using R (and Friends)”](https://doi.org/10.1080/00031305.2017.1375986).
 
-Learn more about Systematic Quantitative Literature Reviews (SQLR)
+Learn more about systematic quantitative literature reviews (SQLR)
 [here](https://www.griffith.edu.au/griffith-sciences/school-environment-science/research/systematic-quantitative-literature-review).
 
 ## Installation
@@ -59,17 +57,17 @@ citation("sqlr.template")
 #> 
 #> To cite {sqlr.template} in publications use:
 #> 
-#>   Vartanian, D., Pedrazzoli, M. (2021). {sqlr.template}: an R package
-#>   with the research compendium of the GIPSO's INSERT NAME OF THE
+#>   Vartanian, D., & Pedrazzoli, M. (2022). {sqlr.template}: an R package
+#>   with the research compendium of the GIPSO INSERT THE NAME OF THE
 #>   PROJECT systematic quantitative literature review.
-#>   https://gipso.github.io/sqlr.template/.
+#>   https://gipso.github.io/sqlr.template/
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{sqlr.template}: an R package with the research compendium of the GIPSO's INSERT NAME OF THE PROJECT systematic quantitative literature review},
+#>     title = {{sqlr.template}: an R package with the research compendium of the GIPSO INSERT THE NAME OF THE PROJECT systematic quantitative literature review},
 #>     author = {Daniel Vartanian and Mario Pedrazzoli},
-#>     year = {2021},
+#>     year = {2022},
 #>     url = {https://gipso.github.io/sqlr.template/},
 #>     note = {Lifecycle: experimental},
 #>   }

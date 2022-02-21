@@ -1,5 +1,5 @@
 Package: sqlr.template
-Title: Template for Systematic Quantitative Literature Reviews
+Title: Template for a SQLR Research Compendium
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Daniel",
@@ -16,7 +16,7 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: For GIPSO internal use.
+Description: Template for a SQLR research compendium.
 License: MIT + file LICENSE
 URL: https://gipso.github.io/sqlr.template/, 
      https://github.com/gipso/sqlr.template/
